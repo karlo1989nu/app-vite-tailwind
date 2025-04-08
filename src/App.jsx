@@ -39,6 +39,10 @@ function App() {
       </>
 
       <div className="card">
+        {console.log("hola")}
+        {function miFuncion() {
+          console.log("hola");
+        }}
         <button class="btn btn-blue">Botón Azul</button>
         <button className="btn btn-green">Botón Verde</button>
       </div>
