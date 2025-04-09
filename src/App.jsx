@@ -48,7 +48,6 @@ function App() {
         <button class="btn btn-blue">Botón Azul</button>
         <button className="btn btn-green">Botón Verde</button>
       </div>
-      <Footer />
     </>
   );
 }
