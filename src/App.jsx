@@ -3,7 +3,8 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Button from "./components/common/button";
 import GridContainer from "./components/common/cont-grid";
-
+import Header from "./components/common/header";
+import Footer from "./components/common/footer";
 import "./App.css";
 import Footer from "./components/common/footer";
 
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
