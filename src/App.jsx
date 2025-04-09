@@ -5,6 +5,7 @@ import Button from "./components/common/button";
 import GridContainer from "./components/common/cont-grid";
 
 import "./App.css";
+import Footer from "./components/common/footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -46,6 +47,7 @@ function App() {
         <button class="btn btn-blue">Botón Azul</button>
         <button className="btn btn-green">Botón Verde</button>
       </div>
+      <Footer />
     </>
   );
 }
