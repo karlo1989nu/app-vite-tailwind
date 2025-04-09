@@ -74,9 +74,7 @@ function App() {
             />
           ))}
         </div>
-        <div className="product-grid">
-          <ProductCard />
-        </div>
+        <div className="product-grid"></div>
 
         <h1>Somos tu tienda preferida de katanas</h1>
         <div className="card">
