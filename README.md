@@ -1,12 +1,36 @@
-# React + Vite
+# Tienda de Katanas - React + Vite + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una tienda de katanas desarrollada con **React**, **Vite** y **Tailwind CSS**. Incluye funcionalidades como una barra de búsqueda, tarjetas de productos con imágenes y descripciones, y un diseño responsive.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Para la creación de componentes reutilizables.
+- **Vite**: Para un entorno de desarrollo rápido y eficiente.
+- **Tailwind CSS**: Para un diseño moderno y responsive.
+- Barra de búsqueda para filtrar productos en tiempo real.
+- Tarjetas de productos con imágenes, títulos, descripciones y botones interactivos.
+- Diseño responsive que se adapta a diferentes tamaños de pantalla.
 
-## Expanding the ESLint configuration
+## Estructura del Proyecto
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/ ├── assets/ │ ├── images/ # Imágenes de los productos │ └── styles/ # Estilos personalizados (index.css) ├── components/ │ └── common/ │ ├── Header.jsx # Componente del encabezado │ ├── Footer.jsx # Componente del pie de página │ ├── ProductCard.jsx # Componente de tarjeta de producto │ ├── SearchBar.jsx # Componente de barra de búsqueda ├── App.jsx # Componente principal de la aplicación ├── main.jsx # Punto de entrada de la aplicación └── index.css # Estilos globales
+
+## Instalación
+
+1. Clona este repositorio:
+
+   ```bash
+   git clone https://github.com/karlo1989nu/tienda-katanas.git
+   cd tienda-katanas
+
+   ```
+
+2. Instala las dependencias
+
+npm install
+
+3. Inicia el servidor de desarrollo:
+
+npm run dev
+
+Autor Karlo Navarro Ulate
