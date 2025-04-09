@@ -6,7 +6,6 @@ import GridContainer from "./components/common/cont-grid";
 import Header from "./components/common/header";
 import Footer from "./components/common/footer";
 import "./App.css";
-import Footer from "./components/common/footer";
 
 function App() {
   const [count, setCount] = useState(0);
