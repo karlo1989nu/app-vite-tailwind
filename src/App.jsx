@@ -77,29 +77,8 @@ function App() {
         <div className="product-grid"></div>
 
         <h1>Somos tu tienda preferida de katanas</h1>
-        <div className="card">
-          <Button
-            text={`Count is ${count}`}
-            onClick={() => setCount(count + 1)}
-          />
-          <p>
-            Edit <code>src/App.jsx</code> and save to test HMR
-          </p>
-        </div>
-
-        <>
-          <h1>Todo es mejor al filo de una katana</h1>
-          <GridContainer />
-        </>
-
-        <div className="card">
-          {console.log("hola")}
-          {function miFuncion() {
-            console.log("hola");
-          }}
-          <button class="btn btn-blue">Botón Azul</button>
-          <button className="btn btn-green">Botón Verde</button>
-        </div>
+        <GridContainer />
+        <h1>Todo es mejor al filo de una katana</h1>
       </main>
 
       <Footer />
