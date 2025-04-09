@@ -1,11 +1,11 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import Button from "./components/common/button";
 import GridContainer from "./components/common/cont-grid";
 import Header from "./components/common/header";
 import Footer from "./components/common/footer";
 import "./App.css";
+import ProductCard from "./components/common/productcard";
+import "/src/assets/styles/index.css";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,15 +13,16 @@ function App() {
   return (
     <>
       <Header />
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="product-grid">
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
       </div>
-      <h1>Vite + React</h1>
+
+      <h1>Somos tu tienda preferida de katanas</h1>
       <div className="card">
         <Button
           text={`Count is ${count}`}
@@ -36,7 +37,7 @@ function App() {
       </p>
 
       <>
-        <h1>Vite + React</h1>
+        <h1>Todo es mejor al filo de una katana</h1>
         <GridContainer />
       </>
 

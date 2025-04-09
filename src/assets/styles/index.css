@@ -78,4 +78,7 @@ button:focus-visible {
   .btn-green {
     @apply bg-green-500 hover:bg-green-600;
   }
+  .product-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-6 p-1;
+  }
 }
